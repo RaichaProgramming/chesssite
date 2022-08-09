@@ -1,7 +1,7 @@
 <?php
     include "api\login_descriptor.php";
 
-    class LoginImplementation extends LoginAPI
+    class LoginImplementation implements LoginAPI
     {
         public function login($username,$password)
         {
@@ -15,7 +15,7 @@
         {
             return 'Hello from changepw';
         }
-        public function checkAuthBySessionID($_SESSION)
+        public function checkAuthBySessionID($sessionID)
         {
             return 'Hello from checkauth';
         }
