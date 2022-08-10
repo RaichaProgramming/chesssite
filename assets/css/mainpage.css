@@ -1,1 +1,10 @@
+.chess-field{
+    border: 1px solid black;
+    height: 155px;
+    margin: -1px;
+}
 
+.chess-board{
+    width: 70%;
+    height: 100%;
+}

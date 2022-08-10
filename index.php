@@ -7,6 +7,7 @@
     </head>
         <body>
             <script src="https://unpkg.com/vue@3"></script>
+            
             <div id="app">
                 <header>
                     <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -31,93 +32,90 @@
                         </div>
                     </nav>
                 </header>
-                <div class = "container">
+                <div class = "container-fluid px-4 chess-board">
                     <div class = "row">
-                        <div class = "col-sm">a8</div>
-                        <div class = "col-sm">b8</div>
-                        <div class = "col-sm">c8</div>
-                        <div class = "col-sm">d8</div>
-                        <div class = "col-sm">e8</div>
-                        <div class = "col-sm">g8</div>
-                        <div class = "col-sm">h8</div>
+                        <div class = "col-sm chess-field">a8</div>
+                        <div class = "col-sm bg-black chess-field">b8</div>
+                        <div class = "col-sm chess-field">c8</div>
+                        <div class = "col-sm bg-black chess-field">d8</div>
+                        <div class = "col-sm chess-field">e8</div>
+                        <div class = "col-sm bg-black chess-field">g8</div>
+                        <div class = "col-sm chess-field">f8</div>
+                        <div class = "col-sm bg-black chess-field">h8</div>
                     </div>
                     <div class = "row">
-                        <div class = "col-sm">a7</div>
-                        <div class = "col-sm">b7</div>
-                        <div class = "col-sm">c7</div>
-                        <div class = "col-sm">d7</div>
-                        <div class = "col-sm">e7</div>
-                        <div class = "col-sm">g7</div>
-                        <div class = "col-sm">h7</div>
+                        <div class = "col-sm bg-black chess-field">a7</div>
+                        <div class = "col-sm chess-field">b7</div>
+                        <div class = "col-sm bg-black chess-field">c7</div>
+                        <div class = "col-sm chess-field">d7</div>
+                        <div class = "col-sm bg-black chess-field">e7</div>
+                        <div class = "col-sm chess-field">f7</div>
+                        <div class = "col-sm bg-black chess-field">g7</div>
+                        <div class = "col-sm chess-field">h7</div>
                     </div>
                     <div class = "row">
-                        <div class = "col-sm">a6</div>
-                        <div class = "col-sm">b6</div>
-                        <div class = "col-sm">c6</div>
-                        <div class = "col-sm">d6</div>
-                        <div class = "col-sm">e6</div>
-                        <div class = "col-sm">g6</div>
-                        <div class = "col-sm">h6</div>
+                        <div class = "col-sm chess-field">a6</div>
+                        <div class = "col-sm bg-black chess-field">b6</div>
+                        <div class = "col-sm chess-field">c6</div>
+                        <div class = "col-sm bg-black chess-field">d6</div>
+                        <div class = "col-sm chess-field">e6</div>
+                        <div class = "col-sm bg-black chess-field">f6</div>
+                        <div class = "col-sm chess-field">g6</div>
+                        <div class = "col-sm bg-black chess-field">h6</div>
                     </div>
                     <div class = "row">
-                        <div class = "col-sm">a5</div>
-                        <div class = "col-sm">b5</div>
-                        <div class = "col-sm">c5</div>
-                        <div class = "col-sm">d5</div>
-                        <div class = "col-sm">e5</div>
-                        <div class = "col-sm">g5</div>
-                        <div class = "col-sm">h5</div>
+                        <div class = "col-sm bg-black chess-field">a5</div>
+                        <div class = "col-sm chess-field">b5</div>
+                        <div class = "col-sm bg-black chess-field">c5</div>
+                        <div class = "col-sm chess-field">d5</div>
+                        <div class = "col-sm bg-black chess-field">e5</div>
+                        <div class = "col-sm chess-field">f5</div>
+                        <div class = "col-sm bg-black chess-field">g5</div>
+                        <div class = "col-sm chess-field">h5</div>
                     </div>
                     <div class = "row">
-                        <div class = "col-sm">a5</div>
-                        <div class = "col-sm">b5</div>
-                        <div class = "col-sm">c5</div>
-                        <div class = "col-sm">d5</div>
-                        <div class = "col-sm">e5</div>
-                        <div class = "col-sm">g5</div>
-                        <div class = "col-sm">h5</div>
+                        <div class = "col-sm chess-field">a4</div>
+                        <div class = "col-sm bg-black chess-field">b4</div>
+                        <div class = "col-sm chess-field">c4</div>
+                        <div class = "col-sm bg-black chess-field">d4</div>
+                        <div class = "col-sm chess-field">e4</div>
+                        <div class = "col-sm bg-black chess-field">f4</div>
+                        <div class = "col-sm chess-field">g4</div>
+                        <div class = "col-sm bg-black chess-field">h4</div>
                     </div>
                     <div class = "row">
-                        <div class = "col-sm">a4</div>
-                        <div class = "col-sm">b4</div>
-                        <div class = "col-sm">c4</div>
-                        <div class = "col-sm">d4</div>
-                        <div class = "col-sm">e4</div>
-                        <div class = "col-sm">g4</div>
-                        <div class = "col-sm">h4</div>
+                        <div class = "col-sm bg-black chess-field">a3</div>
+                        <div class = "col-sm chess-field">b3</div>
+                        <div class = "col-sm bg-black chess-field">c3</div>
+                        <div class = "col-sm chess-field">d3</div>
+                        <div class = "col-sm bg-black chess-field">e3</div>
+                        <div class = "col-sm chess-field">f3</div>
+                        <div class = "col-sm bg-black chess-field">g3</div>
+                        <div class = "col-sm chess-field">h3</div>
                     </div>
                     <div class = "row">
-                        <div class = "col-sm">a3</div>
-                        <div class = "col-sm">b3</div>
-                        <div class = "col-sm">c3</div>
-                        <div class = "col-sm">d3</div>
-                        <div class = "col-sm">e3</div>
-                        <div class = "col-sm">g3</div>
-                        <div class = "col-sm">h3</div>
+                        <div class = "col-sm chess-field">a2</div>
+                        <div class = "col-sm bg-black chess-field">b2</div>
+                        <div class = "col-sm chess-field">c2</div>
+                        <div class = "col-sm bg-black chess-field">d2</div>
+                        <div class = "col-sm chess-field">e2</div>
+                        <div class = "col-sm bg-black chess-field">f2</div>
+                        <div class = "col-sm chess-field">g2</div>
+                        <div class = "col-sm bg-black chess-field">h2</div>
                     </div>
                     <div class = "row">
-                        <div class = "col-sm">a2</div>
-                        <div class = "col-sm">b2</div>
-                        <div class = "col-sm">c2</div>
-                        <div class = "col-sm">d2</div>
-                        <div class = "col-sm">e2</div>
-                        <div class = "col-sm">g2</div>
-                        <div class = "col-sm">h2</div>
-                    </div>
-                    <div class = "row">
-                        <div class = "col-sm">a1</div>
-                        <div class = "col-sm">b1</div>
-                        <div class = "col-sm">c1</div>
-                        <div class = "col-sm">d1</div>
-                        <div class = "col-sm">e1</div>
-                        <div class = "col-sm">g1</div>
-                        <div class = "col-sm">h1</div>
+                        <div class = "col-sm bg-black chess-field">a1</div>
+                        <div class = "col-sm chess-field">b1</div>
+                        <div class = "col-sm bg-black chess-field">c1</div>
+                        <div class = "col-sm chess-field">d1</div>
+                        <div class = "col-sm bg-black chess-field">e1</div>
+                        <div class = "col-sm chess-field">f1</div>
+                        <div class = "col-sm bg-black chess-field">g1</div>
+                        <div class = "col-sm chess-field">h1</div>
                     </div>
                 </div>
-                {{ message }}
             </div>
-
-
+            <script src="assets\js\mainpage.js"></script>
             <script>
                 const { createApp } = Vue
 
@@ -129,12 +127,6 @@
                     }
                 }).mount('#app')
             </script>
-            <?php
-                require_once 'api\auth\login_api.php';
-
-                $main = new LoginImplementation;
-                echo $main->login('','');
-            ?>
         </body>
 </html>
 
